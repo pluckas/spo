@@ -1,0 +1,13 @@
+# macOS housekeeping
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Local temporary files and preview logs
+*.tmp
+*.swp
+*.swo
+*~
+preview.log
+http-server.log
