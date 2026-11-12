@@ -1,7 +1,7 @@
 (()=>{'use strict';
 document.querySelectorAll('.research-table-preview').forEach(section=>{
  const button=section.querySelector('.research-table-toggle');
- const rows=Array.from(section.querySelectorAll('tbody tr')).filter(row=>row.querySelector('td'));
+ const rows=Array.from(section.querySelectorAll('tbody tr, .publication-list > li')).filter(row=>row.matches('li')||row.querySelector('td'));
  if(!button||rows.length<=3)return;
  const extraRows=rows.slice(3);
  const setExpanded=expanded=>{
