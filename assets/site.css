@@ -238,3 +238,20 @@ dialog>p{font-family:var(--sans);font-size:14px;line-height:1.5;color:#eee;margi
 
 .video-local-link{display:block;padding:48px 24px;background:#111;color:#fff;text-align:center;border-radius:4px;font-family:var(--sans);text-decoration:none}
 .video-local-link:hover{background:#272727;text-decoration:underline}
+
+/* Software downloads use the site's existing reading layout. */
+.home-software{border-top:1px solid var(--line);padding:22px 0 28px}
+.home-software h2{font-size:30px;margin:0 0 var(--heading-after)}
+.home-software p{max-width:760px}
+.software-heading{display:flex;align-items:center;gap:20px;margin-bottom:24px}
+.software-heading>img{flex:0 0 96px;width:96px;height:96px;object-fit:contain}
+.software-heading h2{font-size:30px;margin:0 0 8px}
+.software-heading p{margin:0}
+.software-download{background:#eef3f4;padding:20px 24px;margin:28px 0}
+.software-download .button{margin:0 0 12px;text-align:center}
+.software-download p{margin:0}
+@media(max-width:600px){.software-heading{gap:14px}.software-heading>img{flex-basis:72px;width:72px;height:72px}.software-download{padding:20px}}
+
+.software-screenshots figure{margin:24px 0 32px}
+.software-screenshots figure>a{display:block;cursor:zoom-in}
+.software-screenshots img{display:block;width:100%;height:auto}
